@@ -2,6 +2,7 @@
   "name": "dev-plugin-zustand",
   "version": "0.0.1",
   "description": "Expo devtool for inspecting a zustand store",
+  "author": "Michael Heckmann",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "sideEffects": false,
