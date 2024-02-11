@@ -1,2 +1,2 @@
-export declare let useMMKVDevTools: typeof import('./useMMKVDevTools').useMMKVDevTools;
+export declare let useZustandDevTools: typeof import("./useZustandDevTools").useZustandDevTools;
 //# sourceMappingURL=index.d.ts.map

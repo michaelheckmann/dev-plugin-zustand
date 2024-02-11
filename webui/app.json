@@ -4,7 +4,7 @@
       "bundler": "metro"
     },
     "experiments": {
-      "baseUrl": "/_expo/plugins/mmkv-expo-devtool"
+      "baseUrl": "/_expo/plugins/dev-plugin-zustand"
     }
   }
 }
