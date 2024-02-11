@@ -23,7 +23,7 @@ import { StyleSheet, View } from "react-native";
 import { useShowErrorToast } from "./useErrorToast";
 import { usePluginStore } from "./usePluginStore";
 
-const SHOW_DEFAULT_DATA = true;
+const SHOW_DEFAULT_DATA = false;
 
 export function Main() {
   const showToast = useShowErrorToast();
@@ -43,7 +43,7 @@ export function Main() {
 
   const data =
     entries.find((entry) => entry.name === selectedStore)?.state ??
-    SHOW_DEFAULT_DATA
+    (SHOW_DEFAULT_DATA
       ? {
           id: "usr-6fbe95da-4fa7-4914-8f86-99362b51e548",
           createdAt: "2024-02-10T23:06:01.646Z",
@@ -93,7 +93,7 @@ export function Main() {
             mentalIllness: null,
           },
         }
-      : null;
+      : null);
 
   return (
     <View style={styles.container}>
